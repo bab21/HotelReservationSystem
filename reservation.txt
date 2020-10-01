@@ -1,2 +1,2 @@
-Himalaya,23
-Ashram,10
+Reshmi,28,23,4
+Maurya,30,23,4
