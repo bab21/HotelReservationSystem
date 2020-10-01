@@ -1,6 +1,9 @@
 package com.capgemini.HotelReservationSystem.Main;
 
 import java.io.IOException;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.temporal.ChronoField;
 
 import com.capgemini.HotelReservationSystem.Utility.HotelUtility;
 import java.util.Scanner;
@@ -13,18 +16,22 @@ public class HotelReservation {
 		do {
 			System.out.println("Enter your choice");
 			System.out.println("1.Add a new Hotel.");
-			System.out.println("2.Exit.");
+			System.out.println("2.Get cheapest hotel cost");
+			System.out.println("3.Exit.");
 			int choice=s.nextInt();
-			if(choice==2)
+			if(choice==3)
 				break;
 			switch(choice) {
 			case 1:HotelUtility.addHotel();
 				   break;
+			case 2:HotelUtility.cheapest_hotel_given_range();
+			       break;
 		    default:System.out.println("Do nothing");
 			}
+			
 		}while(true);
 		
-		
+	
 		
 	}
 }
