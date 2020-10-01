@@ -8,3 +8,4 @@ Chanakya,23,78
 Home,12,23
 cat,2,5
 Maurya,3,2
+Mahaveer,12,23
