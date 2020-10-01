@@ -1,0 +1,5 @@
+Paradise,45,34
+Aasman,78,67
+Rishis,89,78
+VijanMahal,45,23
+Roti,78,67
