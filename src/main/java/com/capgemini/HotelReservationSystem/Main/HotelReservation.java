@@ -16,19 +16,19 @@ public class HotelReservation {
 		do {
 			System.out.println("Enter your choice");
 			System.out.println("1.Add a new Hotel.");
-			System.out.println("2.Exit.");
+			System.out.println("2.Calculate cost for a range of day");
+			System.out.println("3.Exit.");
 			int choice=s.nextInt();
-			if(choice==2)
+			if(choice==3)
 				break;
 			switch(choice) {
 			case 1:HotelUtility.addHotel();
 				   break;
+			case 2:HotelUtility.calculateCost();
+				   break;
 		    default:System.out.println("Do nothing");
 			}
 			
-		}while(true);
-		
-	
-		
+		}while(true);	
 	}
 }
