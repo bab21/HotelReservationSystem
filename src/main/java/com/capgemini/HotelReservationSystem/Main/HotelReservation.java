@@ -17,14 +17,17 @@ public class HotelReservation {
 			System.out.println("Enter your choice");
 			System.out.println("1.Add a new Hotel.");
 			System.out.println("2.Get cheapest best rated Hotel");
-			System.out.println("3.Exit.");
+			System.out.println("3.Get Best Rated Hotel");
+			System.out.println("4.Exit.");
 			int choice=s.nextInt();
-			if(choice==3)
+			if(choice==4)
 				break;
 			switch(choice) {
 			case 1:HotelUtility.addHotel();
 				   break;
 			case 2:HotelUtility.getCheapestBestRatedHotel();
+			       break;
+			case 3:HotelUtility.getBestRatedHotel();
 			       break;
 		    default:System.out.println("Do nothing");
 			}
