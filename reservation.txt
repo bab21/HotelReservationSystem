@@ -1,10 +1,1 @@
-Paradise,45,34
-Aasman,78,67
-Rishis,89,78
-VijanMahal,45,23
-Roti,78,67
-Taj,10,23
-Chanakya,23,78
-Home,12,23
-cat,2,5
-Maurya,3,2
+
