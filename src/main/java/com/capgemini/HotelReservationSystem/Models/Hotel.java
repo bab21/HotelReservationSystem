@@ -8,6 +8,14 @@ public class Hotel {
 	int weekendRateRewardCustomer;
 	int rating;
 	
+	public Hotel(String hotelName,int weekendRateRegularCustomer,int weekdayRateRegularCustomer,int weekdayRateRewardCustomer,int  weekendRateRewardCustomer,int rating) {
+		this.hotelName=hotelName;
+		this.weekendRateRegularCustomer=weekendRateRegularCustomer;
+		this.weekdayRateRegularCustomer=weekdayRateRegularCustomer;
+		this.weekendRateRewardCustomer=weekendRateRewardCustomer;
+		this.weekdayRateRewardCustomer=weekdayRateRewardCustomer;
+		this.rating=rating;
+	}
 	public void setHotelName(String hotelName) {
 		this.hotelName=hotelName;
 	}
@@ -45,6 +53,6 @@ public class Hotel {
 		return this.rating;
 	}
 	public String toString() {
-		return hotelName+","+weekendRateRegularCustomer+","+weekdayRateRegularCustomer+","+rating+","+weekendRateRewardCustomer+","+weekdayRateRewardCustomer;
+		return hotelName+","+weekendRateRegularCustomer+","+weekdayRateRegularCustomer+","+weekendRateRewardCustomer+","+weekdayRateRewardCustomer+","+rating;
 	}
 }

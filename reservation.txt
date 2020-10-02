@@ -1,3 +1,4 @@
-Maurya,29,23,4,31,29
-Raushni,20,20,4,30,30
-Chanakya,20,20,5,15,15
+Maurya,29,23,31,29,4
+Raushni,20,20,30,30,4
+Chanakya,20,20,15,15,5
+Chanakya,5,5,4,4,4
